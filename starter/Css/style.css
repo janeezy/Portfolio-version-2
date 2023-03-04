@@ -2,9 +2,18 @@
 
 /* Variables */
 /* Variables */
-html {
-	max-zoom: 75%;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
 
+div.project-container .project-card {
+	box-sizing: border-box;
+}
+
+html {
 	box-sizing: border-box;
 }
 
@@ -65,13 +74,11 @@ h2 {
 }
 .container {
 	align-items: flex-end;
-	border-radius: 20px;
+	border-radius: 10px;
 	text-transform: uppercase;
 }
 
 html {
-	scroll-behavior: smooth;
-	/* background-image: url('../images/background-2.jpg'); */
 	cursor: pointer;
 	background-size: cover;
 	position: absolute;
@@ -79,11 +86,6 @@ html {
 
 /* CSS Resets */
 /* CSS Resets */
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
 
 ul {
 	list-style-type: none;
@@ -154,10 +156,9 @@ nav ul li {
 
 img {
 	border-radius: 50%;
-	padding: 3%;
-	width: 300px;
-	display: float;
-	justify-self: unset;
+	padding: 1%;
+	width: 200px;
+	margin: 0;
 	height: 25vh;
 	box-sizing: border-box;
 	box-shadow: inset rgb(237, 230, 223);
@@ -270,7 +271,6 @@ img {
 
 .projects-container {
 	display: flex;
-
 	justify-content: center;
 }
 
@@ -288,8 +288,8 @@ img {
 .project-container {
 	text-align: center;
 	width: 20.875rem;
-	height: 31.875rem;
-	padding: 1rem;
+	height: 29.875rem;
+	padding: 0;
 }
 /* adding box shadow to projects  */
 .project-container p {
