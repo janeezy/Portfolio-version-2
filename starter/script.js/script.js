@@ -32,5 +32,8 @@ navLink.forEach((link) =>
 		ul.classList.remove('show');
 	})
 );
-// document.querySelector('body').window;
-// alert('welcome to my page!');
+
+// * date = year.getFullYear('2023');
+
+const copyrightEl = document.getElementById('copyrightYear');
+copyrightEl.innerText = 'Copyright ' + new Date().getFullYear();

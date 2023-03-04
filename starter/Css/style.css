@@ -309,7 +309,7 @@ img {
 .project-details {
 	margin-bottom: var(--bottom-margin);
 	text-align: justify;
-	margin-top: -0.65rem;
+	margin-top: 0.65rem;
 }
 
 .project-card {
@@ -365,9 +365,17 @@ img {
 }
 
 /* placeholder styling */
+.input-field {
+	text-align: justify;
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
 .input-field::placeholder {
 	padding: 0.5rem;
 	color: var(--primary-color);
+	text-align: left;
 }
 
 /* button style */
