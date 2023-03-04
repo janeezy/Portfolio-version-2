@@ -21,6 +21,22 @@ html {
 	background-size: cover;
 	position: absolute;
 }
+/* light and dark mood styling  */
+h3 {
+	margin-left: auto;
+}
+.dark-mode {
+	background-color: black;
+	color: white;
+	display: flex;
+	align-items: flex-end;
+}
+.light-mode {
+	background-color: white;
+	color: black;
+	display: flex;
+	align-items: flex-end;
+}
 
 :root {
 	--font-family: 'Roboto', sans-serf;
