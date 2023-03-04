@@ -2,11 +2,11 @@
 
 /* Variables */
 /* Variables */
+
 * {
-	margin: 0;
-	padding: 0;
+	margin: 0%;
+	padding: 0%;
 	box-sizing: border-box;
-	scroll-behavior: smooth;
 }
 
 div.project-container .project-card {
@@ -15,6 +15,8 @@ div.project-container .project-card {
 
 html {
 	box-sizing: border-box;
+	margin: 0;
+	scroll-behavior: smooth;
 }
 
 :root {
@@ -152,6 +154,7 @@ nav ul li {
 /* image styling */
 .styling-image {
 	border-radius: 0%;
+	width: 27vh;
 }
 
 img {
@@ -260,13 +263,13 @@ img {
 
 .projects {
 	background-color: var(--bg-color);
-	padding: 32px 0;
+	padding: 12px 0;
 	margin-top: 2rem;
 }
 
 .project-pic {
-	width: 65%;
-	height: 60%;
+	width: 45%;
+	height: 50%;
 }
 
 .projects-container {
@@ -277,7 +280,8 @@ img {
 /* project title */
 .project-link {
 	color: #a17a69;
-	text-align: justify;
+	text-align: center;
+	display: grid;
 }
 
 .projects-title {
@@ -288,7 +292,7 @@ img {
 .project-container {
 	text-align: center;
 	width: 20.875rem;
-	height: 29.875rem;
+	height: 29rem;
 	padding: 0;
 }
 /* adding box shadow to projects  */
@@ -305,6 +309,7 @@ img {
 .project-details {
 	margin-bottom: var(--bottom-margin);
 	text-align: justify;
+	margin-top: 0%;
 }
 
 .project-card {
