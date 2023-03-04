@@ -17,6 +17,9 @@ html {
 	box-sizing: border-box;
 	margin: 0;
 	scroll-behavior: smooth;
+	cursor: pointer;
+	background-size: cover;
+	position: absolute;
 }
 
 :root {
@@ -78,12 +81,6 @@ h2 {
 	align-items: flex-end;
 	border-radius: 10px;
 	text-transform: uppercase;
-}
-
-html {
-	cursor: pointer;
-	background-size: cover;
-	position: absolute;
 }
 
 /* CSS Resets */
@@ -155,6 +152,8 @@ nav ul li {
 .styling-image {
 	border-radius: 0%;
 	width: 27vh;
+	margin: 0%;
+	padding: 0%;
 }
 
 img {
@@ -165,7 +164,6 @@ img {
 	height: 25vh;
 	box-sizing: border-box;
 	box-shadow: inset rgb(237, 230, 223);
-	overflow: hidden;
 }
 
 .bio-title :hover {
@@ -181,12 +179,12 @@ img {
 	align-items: center;
 	justify-content: center;
 	gap: 2.5rem;
-	max-width: 68.75rem;
+	max-width: 66.75rem;
 	margin: auto;
 }
 .hero img {
-	height: 37.5rem;
-	width: 37.5rem;
+	height: 35.5rem;
+	width: 35.5rem;
 }
 
 .bio {
@@ -263,18 +261,20 @@ img {
 
 .projects {
 	background-color: var(--bg-color);
-	padding: 12px 0;
+	padding: 8px 0;
 	margin-top: 2rem;
 }
 
 .project-pic {
 	width: 45%;
 	height: 50%;
+	box-sizing: border-box;
 }
 
 .projects-container {
 	display: flex;
 	justify-content: center;
+	box-sizing: border-box;
 }
 
 /* project title */
@@ -291,9 +291,9 @@ img {
 
 .project-container {
 	text-align: center;
-	width: 20.875rem;
+	width: 19.875rem;
 	height: 29rem;
-	padding: 0;
+	padding: 0.3rem;
 }
 /* adding box shadow to projects  */
 .project-container p {
@@ -309,25 +309,28 @@ img {
 .project-details {
 	margin-bottom: var(--bottom-margin);
 	text-align: justify;
-	margin-top: 0%;
+	margin-top: -0.65rem;
 }
 
 .project-card {
 	background-color: #fff;
 	border-radius: 11px;
 	box-shadow: 0 3px 20px var(--primary-shadow);
-	padding: 20px;
+	padding: 10px;
 	margin: 10px;
+	box-sizing: border-box;
 }
 
 /* styling contact  */
 .contact {
 	margin-top: 2rem;
+	box-sizing: border-box;
 }
 
 .contact h2 {
 	text-align: center;
 	margin-bottom: var(--bottom-margin-2);
+	box-sizing: border-box;
 }
 
 .contact-form-container {
@@ -336,6 +339,7 @@ img {
 	padding: 0.938rem;
 	border-radius: 5px;
 	box-shadow: 0 3px 10px var(--secondary-shadow);
+	box-sizing: border-box;
 }
 /* styling more on placeholder  */
 .contact-form-container label {
@@ -371,7 +375,7 @@ img {
 	width: 100%;
 	padding: 10px;
 	margin: 10px 0;
-	background-color: #fff;
+	background-color: #ddaeae;
 	border: 2px solid var(--primary-color);
 	border-radius: 5px;
 	font-size: 1rem;
@@ -392,6 +396,7 @@ img {
 	position: fixed;
 	right: 2%;
 	bottom: 20%;
+	margin: -0.9rem;
 }
 
 .socicon {
@@ -417,8 +422,10 @@ footer {
 }
 
 .up-arrow {
-	width: 3rem;
-	height: 3rem;
+	width: 2rem;
+	height: 2rem;
+
+	bottom: 3%;
 }
 /* creating responsesiveness */
 @media screen and (max-width: 620px) {
@@ -427,6 +434,7 @@ footer {
 	}
 	/*changes reflects on screen with a
 		width of 720px and below*/
+
 	nav {
 		padding: 1.5rem 1rem;
 	}
@@ -510,5 +518,8 @@ footer {
 	}
 	.project-card {
 		margin-left: 5rem;
+	}
+	.copy {
+		margin: 0.887rem;
 	}
 }
