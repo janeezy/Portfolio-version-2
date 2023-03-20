@@ -79,6 +79,11 @@ h2 {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
 		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+h3.project-title {
+	margin-top: 1.04rem;
+	box-sizing: border-box;
+}
 /* logoicon for jd */
 #logo-icon {
 	position: fixed;
@@ -88,7 +93,7 @@ h2 {
 }
 .container {
 	align-items: flex-end;
-	border-radius: 10px;
+	border-radius: 15px;
 	text-transform: uppercase;
 }
 
@@ -275,9 +280,11 @@ img {
 }
 
 .project-pic {
-	width: 45%;
-	height: 50%;
+	width: 25%;
+	height: 25%;
 	box-sizing: border-box;
+	margin: 1rem;
+	padding: 0.98rem;
 }
 
 .projects-container {
@@ -300,15 +307,16 @@ img {
 
 .project-container {
 	text-align: center;
-	width: 19.875rem;
-	height: 29rem;
-	padding: 0.3rem;
+	width: 36.875rem;
+	height: 39rem;
+	padding: 2rem;
 }
 /* adding box shadow to projects  */
 .project-container p {
-	padding: 0.5rem;
-	border-radius: 2rem;
+	padding: 2rem;
+	border-radius: 15rem;
 	box-sizing: border-box;
+	box-shadow: #e39607;
 }
 
 .project-title {
@@ -320,12 +328,13 @@ img {
 	text-align: justify;
 	margin-top: 0.65rem;
 }
-
+p.project-details {
+	margin-top: 0%;
+}
 .project-card {
 	background-color: #fff;
 	border-radius: 11px;
 	box-shadow: 0 3px 20px var(--primary-shadow);
-	padding: 10px;
 	margin: 10px;
 	box-sizing: border-box;
 }
@@ -413,13 +422,15 @@ img {
 	position: fixed;
 	right: 2%;
 	bottom: 20%;
-	margin: -0.9rem;
+	margin: 2rem;
 }
 
 .socicon {
-	width: 2rem;
-	height: 2rem;
+	width: 2.5rem;
+	height: 2.5rem;
 	position: sticky;
+	margin: 1rem;
+	right: -45%;
 }
 /* footer styling */
 footer {
@@ -431,7 +442,7 @@ footer {
 /* scroll up icon footer section */
 .scroll-up {
 	position: fixed;
-	right: 0.7%;
+	right: 2%;
 	bottom: 3%;
 	box-sizing: border-box;
 
@@ -439,10 +450,10 @@ footer {
 }
 
 .up-arrow {
-	width: 2rem;
-	height: 2rem;
+	width: 3rem;
+	height: 3rem;
 
-	bottom: 3%;
+	bottom: 10%;
 }
 /* creating responsesiveness */
 @media screen and (max-width: 620px) {
@@ -483,7 +494,7 @@ footer {
 		display: flex;
 		flex-direction: column;
 		position: fixed;
-		right: 4%;
+		right: -6%;
 		bottom: 20%;
 	}
 
@@ -539,4 +550,9 @@ footer {
 	.copy {
 		margin: 0.887rem;
 	}
+	.scroll-up {
+	position: fixed;
+	right: -2%;
+	bottom: 3%;
+	box-sizing: border-box;
 }
