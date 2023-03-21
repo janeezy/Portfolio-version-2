@@ -39,8 +39,3 @@ const copyrightEl = document.getElementById('copyrightYear');
 copyrightEl.innerText = 'Copyright ' + new Date().getFullYear();
 
 //gets the button by ID from your HTML element
-
-function myFunction() {
-	var element = document.body;
-	element.classList.toggle('dark-mode');
-}

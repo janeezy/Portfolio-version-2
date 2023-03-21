@@ -169,6 +169,11 @@ nav ul li {
 	margin: 0%;
 	padding: 0%;
 }
+div.project-container {
+	width: min-content;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
 
 img {
 	border-radius: 50%;
@@ -177,7 +182,7 @@ img {
 	margin: 0;
 	height: 25vh;
 	box-sizing: border-box;
-	box-shadow: inset rgb(237, 230, 223);
+	box-shadow: inset rgb(21, 21, 21);
 }
 
 .bio-title :hover {
@@ -197,14 +202,16 @@ img {
 	margin: auto;
 }
 .hero img {
-	height: 35.5rem;
-	width: 35.5rem;
+	height: 33.5rem;
+	width: 33.5rem;
+	background-color: #a7a91f33;
+	box-shadow: #fcfcfc;
 }
 
 .bio {
 	width: 35rem;
 	padding: 0.625rem;
-	border-radius: 6px;
+	border-radius: 7px;
 	box-shadow: 0px 2px 15px 2px var(--primary-shadow);
 }
 
@@ -248,7 +255,8 @@ img {
 	max-width: 68.75rem;
 	margin: auto;
 	text-align: center;
-	margin-top: 2.5rem;
+	margin-top: 3.5rem;
+	margin-bottom: 3.5rem;
 }
 
 .skill-header {
@@ -307,8 +315,8 @@ img {
 
 .project-container {
 	text-align: center;
-	width: 36.875rem;
-	height: 39rem;
+	width: 38.875rem;
+	height: 43rem;
 	padding: 2rem;
 }
 /* adding box shadow to projects  */
@@ -430,7 +438,7 @@ p.project-details {
 	height: 2.5rem;
 	position: sticky;
 	margin: 1rem;
-	right: -45%;
+	right: -7%;
 }
 /* footer styling */
 footer {
@@ -551,8 +559,9 @@ footer {
 		margin: 0.887rem;
 	}
 	.scroll-up {
-	position: fixed;
-	right: -2%;
-	bottom: 3%;
-	box-sizing: border-box;
+		position: fixed;
+		right: -2%;
+		bottom: 3%;
+		box-sizing: border-box;
+	}
 }
