@@ -11,19 +11,10 @@ html {
 	box-sizing: border-box;
 	margin: 0%;
 	scroll-behavior: smooth;
-	cursor: pointer;
+	cursor: default;
 	background-size: cover;
 	position: absolute;
 }
-
-/* root styling  */
-/* wrap container for sections  */
-/* #Wrap-contain {
-	viewport-fit: auto;
-	margin-bottom: 13rem;
-	width: 100%;
-	height: 100%;
-} */
 
 :root {
 	--font-family: 'Roboto', sans-serf;
@@ -67,10 +58,13 @@ html {
 #h1-tag ::shadow {
 	color: bisque;
 }
+/* paragraph styling */
 p {
 	font-weight: 500;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-family: Verdana, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-size: medium;
+	text-align: center;
+	align-content: center;
 }
 
 h2 {
@@ -270,11 +264,13 @@ section#about.hero {
 }
 
 .more-about p {
-	line-height: var(--line-height);
+	line-height: 1.89em;
 	padding: 0.4rem;
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: justify;
 	font: medium;
+	white-space: normal;
+	word-spacing: 0.05rem;
 }
 
 /* skilss styling */
@@ -575,6 +571,9 @@ footer {
 
 	.more-about p {
 		text-align: justify;
+		line-height: 3rem;
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+		white-space: normal;
 	}
 
 	.icon {
